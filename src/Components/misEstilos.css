@@ -1,0 +1,10 @@
+.foto-pokemon{
+    width: 60px;
+    height: 60px;
+}
+
+#card-poke:hover {
+    background-color: rgb(173, 3, 173);
+    color: white;
+}
+
