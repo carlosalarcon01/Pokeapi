@@ -6,9 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Cabecera } from './Components/Cabecera';
 import Pie from './Components/Pie';
 import ListaProductos from './Components/ListaProductos';
-import Persona from './Components/Persona';
 import Botones from './Components/Botones';
-import ListaProveedores from './Components/ListaProveedores';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,8 +14,6 @@ root.render(
   <div className='container'>
   <React.StrictMode>
     <Cabecera/>
-
-  <ListaProveedores/>
     <ListaProductos/>
     <Botones/>
     <Pie/>
